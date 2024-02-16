@@ -88,7 +88,7 @@ public class UserController {
 	@GetMapping("/hii")
 	public String hello(@RequestParam("id") int id)
 	{
-		return "hiiiiiiiii"+id;
+		return "hiiiiiiiii to kya bat hai"+id;
 	}
 	
 	@GetMapping("/viewAll")
